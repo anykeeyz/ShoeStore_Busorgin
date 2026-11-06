@@ -217,7 +217,9 @@ namespace ShoeStore_Бусоргин.Views
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.GoBack();
+            MessageBoxResult res = MessageBox.Show("Выйти? Все несохраненные изменения будут потерянны.", "Отмена", MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.No);
+            if (Convert.ToBoolean(res))
+                NavigationService.GoBack();
         }
 
         private void btnAddProduct_Click(object sender, RoutedEventArgs e)
