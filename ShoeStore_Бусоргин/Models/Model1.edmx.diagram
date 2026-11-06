@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8997019b8e4b496f9f7b0725f1c53eb8" Name="Diagram1" ZoomLevel="52">
+        <EntityTypeShape EntityType="ShoesShop2Model.Addresses" Width="1.5" PointX="10.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoesShop2Model.Categories" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoesShop2Model.Order_Products" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoesShop2Model.Orders" Width="1.5" PointX="7.625" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoesShop2Model.OrderStatuses" Width="1.5" PointX="9.375" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoesShop2Model.ProdNames" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoesShop2Model.Producers" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoesShop2Model.Products" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoesShop2Model.Roles" Width="1.5" PointX="9" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoesShop2Model.Suppliers" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoesShop2Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoesShop2Model.Units" Width="1.5" PointX="4.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoesShop2Model.Users" Width="1.5" PointX="6.875" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="ShoesShop2Model.FK_Orders_Addresses" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoesShop2Model.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoesShop2Model.FK_OrderProds_Ords" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoesShop2Model.FK_OrderProds_Prods" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoesShop2Model.FK_Orders_OrderStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoesShop2Model.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoesShop2Model.FK_Products_ProdNames" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoesShop2Model.FK_Products_Producers" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoesShop2Model.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoesShop2Model.FK_Products_Units" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoesShop2Model.FK_Users_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
